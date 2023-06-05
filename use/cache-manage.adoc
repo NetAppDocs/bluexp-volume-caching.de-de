@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: use/cache-manage.html 
+keywords: volume caching, bluexp volume caching 
+summary: Durch Volume Caching wird ein persistentes, beschreibbares Volume an einem Remote-Standort bereitgestellt. BlueXP Volume-Caching beschleunigt den Zugriff auf Daten und erleichtert die Verlagerung von Datenverkehr von Volumes, auf die sehr viel zugegriffen wird. Cache Volumes sind ideal für leseintensive Workloads, insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen. 
+---
+= Verwalten eines Caches
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können einen Cache bearbeiten, die Exportrichtlinie ändern, die Größe eines Caches ändern und einen Cache löschen.
+
+Mit BlueXP Volume Caching erreichen Sie diese Ziele:
+
+* Cache-Details anzeigen.
+* Weisen Sie einem Cache eine andere Exportrichtlinie zu.
+* Caching eines Volumes bearbeiten und seine Größe ändern usw. Bearbeiten hat die Möglichkeit, andere Eigenschaften anzuzeigen und zu ändern, und weitere Eigenschaften werden in den kommenden Versionen zur Bearbeitung hinzugefügt.
+* Die Größe eines vorhandenen Caches basiert auf einem Prozentsatz der ursprünglichen Volume-Größe.
+* Cache löschen.
+
+
+
+
+== Cache-Details anzeigen
+
+Bei jedem Caching von Volumes können Sie das ursprüngliche Volume, die Arbeitsumgebung, das Cache Volume und vieles mehr anzeigen.
+
+.Schritte
+. Wählen Sie in der linken Navigationsleiste von BlueXP *Mobility* > *Volume Caching* aus.
++
+Sie können die Liste der Cache-Volumes anzeigen, die in der Zielumgebung erstellt wurden. In der Liste der Caches werden die Cache-Details angezeigt.
+
+. Um die Liste zu filtern, wählen Sie die Option *Filtern nach +*.
+. Wählen Sie eine Zeile aus und wählen Sie rechts die Option *actions …*.
+. Wählen Sie *Details anzeigen und bearbeiten*.
+. Überprüfen Sie die Details.
+
+
+
+
+== Bearbeiten Sie einen Volume-Cache
+
+Sie können den Namen, die Volume-Größe und die Exportrichtlinie für einen Cache ändern.
+
+.Schritte
+. Wählen Sie in der linken Navigationsleiste von BlueXP *Mobility* > *Volume Caching* aus.
+. Wählen Sie eine Zeile aus und wählen Sie rechts die Option *actions …*.
+. Wählen Sie *Details anzeigen und bearbeiten*.
+. Ändern Sie auf der Registerkarte Grundkonfiguration optional den Cachenamen und die Größe des Cache-Volumes.
+. Erweitern Sie optional die Registerkarte Cache Access, und ändern Sie die folgenden Werte:
++
+.. Der Mount-Pfad.
+.. Eine Exportrichtlinie, die sich von der vorhandenen unterscheidet.
+
+
+. Wenn Sie Details zur SMB-/CIFS-Freigabe oder die Regeln für den Export ändern möchten, klicken Sie auf die Option, um auf BlueXP System Manager zuzugreifen.
+. Wählen Sie *Speichern*.
+
+
+
+
+== Weisen Sie eine andere Cache-Exportrichtlinie zu
+
+Sie können einem Cache eine andere Exportrichtlinie zuweisen.
+
+Die Regeln für die Quell-Exportrichtlinie sollten auf das Ziel-Cluster angewendet werden.
+
+
+TIP: Sie können eine vorhandene Exportrichtlinie einem Cache zuweisen. Sie können die Regeln für Exportrichtlinien nicht ändern. Wenn Sie die Exportrichtlinien ändern müssen, können Sie NetApp System Manager verwenden.
+
+.Schritte
+. Wählen Sie in der linken Navigationsleiste von BlueXP *Mobility* > *Volume Caching* aus.
+. Wählen Sie eine Zeile aus und wählen Sie rechts die Option *actions …*.
+. Wählen Sie *Exportrichtlinie ändern*.
+. Wählen Sie die Exportrichtlinie aus, die Sie dem Cache zuweisen möchten.
+. Wählen Sie *Speichern*.
+
+
+
+
+== Die Größe eines Caching von Volumes ändern
+
+Sie können die Größe des Cache-Volumes basierend auf einem Prozentsatz des Quell-Volumes ändern.
+
+.Schritte
+. Wählen Sie in der linken Navigationsleiste von BlueXP *Mobility* > *Volume Caching* aus.
+. Wählen Sie eine Zeile aus und wählen Sie rechts die Option *actions …*.
+. Wählen Sie *Größe Ändern*.
+. Geben Sie einen neuen Prozentsatz der Größe des Ursprungs-Volumes ein.
++
+Die Größe des Cache-Volumes wird auf den neuen Prozentsatz angepasst.
+
+. Wählen Sie *Speichern*.
+
+
+
+
+== Löschen Sie einen Volume-Cache
+
+Wenn Sie den Cache nicht mehr benötigen, können Sie ihn löschen. Dadurch wird die Cache-Beziehung des Volumes gelöscht und der Cache des Zielvolumes wird gelöscht.
+
+.Schritte
+. Wählen Sie in der linken Navigationsleiste von BlueXP *Mobility* > *Volume Caching* aus.
+. Wählen Sie eine Zeile aus und wählen Sie rechts die Option *actions …*.
+. Wählen Sie *Löschen*.
+. Aktivieren Sie das Kontrollkästchen.
+. Wählen Sie *Löschen*.
+

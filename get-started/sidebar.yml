@@ -1,0 +1,16 @@
+---
+section: get-started
+title: Los geht's
+entries:
+- title: Weitere Informationen zum BlueXP Volume-Caching
+  url: "/get-started/cache-intro.html"
+- title: Voraussetzungen
+  url: "/get-started/cache-prerequisites.html"
+- title: Schnellstart
+  url: "/get-started/cache-quick-start.html"
+- title: BlueXP Volume-Caching einrichten
+  url: "/get-started/cache-setup.html"
+- title: Zugriff auf BlueXP Volume-Caching
+  url: "/get-started/cache-login.html"
+- title: Häufig gestellte Fragen
+  url: "/get-started/cache-faq.html"

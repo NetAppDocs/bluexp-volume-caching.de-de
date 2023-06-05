@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: use/monitor-jobs.html 
+keywords: volume caching, bluexp volume caching 
+summary: Durch Volume Caching wird ein persistentes, beschreibbares Volume an einem Remote-Standort bereitgestellt. BlueXP Volume-Caching beschleunigt den Zugriff auf Daten und erleichtert die Verlagerung von Datenverkehr von Volumes, auf die sehr viel zugegriffen wird. Cache Volumes sind ideal für leseintensive Workloads, insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen. 
+---
+= Überwachen Sie die Zwischenspeicherung von Volumes in der Zeitleiste
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können alle Volume-Caching-Jobs überwachen und deren Fortschritt bestimmen.
+
+.Schritte
+. Wählen Sie im Hauptmenü die Option image:settings-icon.png["Einstellungssymbol auf der Benutzeroberfläche"] > *Zeitleiste*.
+
+
+image:timeline.png["Bildschirm „Zeitleiste“"]
+
+. Optional nach Zeit, Dienst, Aktion, Agent, Ressource, Benutzer oder Status.
+. Untersuchen Sie alle Caches und Vorgänge.
+

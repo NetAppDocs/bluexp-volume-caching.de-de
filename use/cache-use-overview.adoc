@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: use/cache-use-overview.html 
+keywords: volume caching, volume caching 
+summary: Durch Volume Caching wird ein persistentes, beschreibbares Volume an einem Remote-Standort bereitgestellt. BlueXP Volume-Caching beschleunigt den Zugriff auf Daten und erleichtert die Verlagerung von Datenverkehr von Volumes, auf die sehr viel zugegriffen wird. Cache Volumes sind ideal für leseintensive Workloads, insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen. 
+---
+= Nutzen Sie die Übersicht zum BlueXP Volume Caching
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Mit BlueXP Volume Caching erreichen Sie folgende Ziele:
+
+* link:../use/cache-create.html["Erstellen Sie einen Cache"].
+* link:../use/cache-manage.html#view-cache-details["Cache-Details anzeigen"].
+* link:../use/cache-manage.html#assign-a-different-cache-export-policy["Ändern Sie die Exportrichtlinie und ändern Sie die Größe eines Caches"].
+* link:../use/cache-manage.html#delete-a-volume-cache["Cache löschen"].
+* link:../use/monitor-jobs.html["Überwachen Sie die Caching-Vorgänge von Volumes"] In der BlueXP Zeitachse.
+

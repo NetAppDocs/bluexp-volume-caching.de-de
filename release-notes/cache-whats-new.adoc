@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: release-notes/cache-whats-new.html 
+keywords: volume caching faq, bluexp, volume caching frequently asked questions 
+summary: Durch Volume Caching wird ein persistentes, beschreibbares Volume an einem Remote-Standort bereitgestellt. BlueXP Volume-Caching beschleunigt den Zugriff auf Daten und erleichtert die Verlagerung von Datenverkehr von Volumes, auf die sehr viel zugegriffen wird. Cache Volumes sind ideal für leseintensive Workloads, insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen. 
+---
+= Was ist neu
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Erfahren Sie mehr über die Neuerungen beim BlueXP Volume-Caching.
+
+
+
+== 04 Juni 2023
+
+Volume Caching, eine Funktion der ONTAP 9 Software, ist eine Remote-Caching-Funktion, die die Dateiverteilung vereinfacht, WAN-Latenz reduziert, indem Ressourcen näher an den Orten Ihrer Benutzer und Computing-Ressourcen gebracht werden und die Kosten für die WAN-Bandbreite gesenkt werden. Durch Volume Caching wird ein persistentes, beschreibbares Volume an einem Remote-Standort bereitgestellt. BlueXP Volume-Caching beschleunigt den Zugriff auf Daten und erleichtert die Verlagerung von Datenverkehr von Volumes, auf die sehr viel zugegriffen wird. Cache Volumes sind ideal für leseintensive Workloads, insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen.
+
+Mit BlueXP Volume-Caching verfügen Sie über Caching-Funktionen für die Cloud, insbesondere für Amazon FSX for NetApp ONTAP, Cloud Volumes ONTAP und On-Premises als Arbeitsumgebungen.
+
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["Weitere Informationen zum Volume-Caching von BlueXP"].

@@ -1,0 +1,38 @@
+---
+indexpage:
+  lead: Durch Volume Caching wird ein persistentes, beschreibbares Volume an einem
+    Remote-Standort bereitgestellt. BlueXP Volume-Caching beschleunigt den Zugriff
+    auf Daten und erleichtert die Verlagerung von Datenverkehr von Volumes, auf die
+    sehr viel zugegriffen wird. Cache Volumes sind ideal für leseintensive Workloads,
+    insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen.
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Weitere Informationen zum BlueXP Volume-Caching
+      url: "/get-started/cache-intro.html"
+    - title: Was ist neu beim Volume-Caching von BlueXP
+      url: "/release-notes/cache-whats-new.html"
+    - title: Schnellstart
+      url: "/get-started/cache-quick-start.html"
+    - title: Voraussetzungen
+      url: "/get-started/cache-prerequisites.html"
+    - title: Melden Sie sich beim BlueXP Volume-Caching an
+      url: "/get-started/cache-login.html"
+    - title: Häufig gestellte Fragen
+      url: "/get-started/cache-faq.html"
+  - title: BlueXP Volume-Caching verwenden
+    links:
+    - title: Nutzen Sie die Übersicht zum BlueXP Volume Caching
+      url: "/use/cache-use-overview.html"
+    - title: Erstellen Sie einen Cache
+      url: "/use/cache-create.html"
+    - title: Verwalten eines Caches
+      url: "/use/cache-manage.html"
+    - title: Überwachen von Volume Caching-Jobs
+      url: "/use/monitor-jobs.html"
+  - title: Blogs und Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: Cloud-Webinare
+      url: https://bluexp.netapp.com/events

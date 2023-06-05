@@ -1,0 +1,114 @@
+---
+sidebar: sidebar 
+permalink: use/cache-create.html 
+keywords: volume caching, bluexp volume caching 
+summary: Durch Volume Caching wird ein persistentes, beschreibbares Volume an einem Remote-Standort bereitgestellt. BlueXP Volume-Caching beschleunigt den Zugriff auf Daten und erleichtert die Verlagerung von Datenverkehr von Volumes, auf die sehr viel zugegriffen wird. Cache Volumes sind ideal für leseintensive Workloads, insbesondere wenn Clients wiederholt auf dieselben Daten zugreifen müssen. 
+---
+= Erstellen Sie einen Cache
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können ein Volume Caching zwischen Amazon FSX für ONTAP, Cloud Volumes ONTAP und On-Premises ONTAP erstellen, wobei ein oder mehrere Quell-Volumes aus der Arbeitsumgebung als Cache-Quelle verwendet werden. Anschließend wählen Sie die Storage Virtual Machine für die Cache-Volumes aus.
+
+Das Cache-Volume kann sich auf demselben oder einem anderen Cluster befinden als das des Quell-Volume. Die Volumes, die Sie als Cache auswählen, müssen zur gleichen Storage-VM gehören, und die Storage-VMs müssen dieselben Protokolle verwenden.
+
+
+TIP: Wenn Volumes nicht für das Caching geeignet sind, sind sie ausgegraut, sodass Sie sie nicht auswählen können.
+
+Sie können die Größe für Cache-Volumes als Prozentsatz der Größe des Quell-Volumes eingeben.
+
+
+NOTE: Der vom Cache-Volume genutzte IPSpace hängt von dem IPSpace ab, der von der Quell-Storage-VM verwendet wird.
+
+Der Name des Cache-Volumes verwendet ein Suffix von `pass:macros[_cache]` Dem ursprünglichen Volume-Namen hinzugefügt.
+
+
+
+== Schritte von der Landing Page des BlueXP Volume Caching
+
+. Melden Sie sich bei BlueXP an und wählen Sie in der linken Navigation *Mobility* > *Volume Caching*.
++
+Sie finden sie auf der Seite zum Volume Caching von BlueXP. Wenn Sie den Dienst zum ersten Mal starten, müssen Sie die Cache-Informationen hinzufügen. Später wird stattdessen das Dashboard angezeigt und zeigt Daten zu den Caches an.
+
++
+
+NOTE: Wenn Sie noch keinen BlueXP Connector eingerichtet haben, erscheint anstelle von *Add a Cache* die Option *Add a Connector*. In diesem Fall müssen Sie zuerst den Connector einrichten. Siehe https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXP Quick Start Guide"^].
+
++
+image:landing-page.png["Die Landing Page für das Caching von Volumes"]
+
+. Wählen Sie *Cache hinzufügen*.
+. Wählen Sie auf der Seite Cache Data die Arbeitsumgebungs-Quell- und Zielcache aus und wählen Sie *Cache-Assistent starten* aus.
+. Wählen Sie auf der Seite „Configure Your Caches“ das Volume oder die Volumes aus, die Sie zwischenspeichern möchten.
++
+
+NOTE: Sie können bis zu 50 Volumes auswählen.
+
+. Scrollen Sie auf der Seite nach unten, um weitere Änderungen an den Details der VM oder der Volume-Größe vorzunehmen.
+. Geben Sie die Größe für Cache-Volumes als Prozentsatz der Größe des Quell-Volumes ein.
++
+
+TIP: Eine gute Faustregel lautet, dass die Cache-Volumen-Größe etwa 15% der Quell-Volume-Größe betragen sollte.
+
+. Aktivieren Sie das Kontrollkästchen *Cachezugriff*, um die Regeln für die NFS-Exportrichtlinie und die SMB/CIFS-Share-Konfiguration vom Quell-Volume auf das Ziel-Cache-Volume zu replizieren.
++
+Anschließend werden die Regeln für die NFS-Exportrichtlinie und die SMB/CIFS-Freigabe im Quell-Volume auf das Cache-Volume repliziert. Wenn das SMB/CIFS-Protokoll auf der Cache-Speicher-VM nicht aktiviert ist, wird die SMB/CIFS-Freigabe nicht repliziert.
+
+. Geben Sie optional das Präfix für den Cache-Namen ein.
+
+
+Das Suffix von `pass:macros[_cache]` Wird an den Namen in folgendem Format angehängt: `<user-specified prefix>_<source volume name>_cache`
+
+. Wählen Sie *Caches erstellen*.
++
+Der neue Cache wird in der Liste Caching angezeigt. Der Name des Cache-Volumes wird angezeigt `pass:macros[_cache]` Als Suffix auf den Namen des Quell-Volumes.
+
+. Um den Fortschritt des Vorgangs anzuzeigen, wählen Sie im oberen Menü die Option image:settings-icon.png["Einstellungssymbol"] > *Zeitleiste*.
+
+
+
+
+== Schritte aus dem BlueXP Arbeitsbereich
+
+. Wählen Sie auf dem BlueXP-Bildschirm die Arbeitsumgebung aus.
+. Wählen Sie die Quellumgebung aus, und ziehen Sie sie an das Ziel.
+image:drag-n-drop.png["Cache durch Drag-and-Drop erstellen"]
+. Wählen Sie den Dienst *Volume Caching* aus.
++
+Dadurch wird ein Cache-Volume von der Quelle zum Ziel erstellt.
+
+. Wählen Sie im rechten Fensterbereich im Feld Caching-Dienst *Hinzufügen* aus.
+. Wählen Sie auf der Seite Daten zwischenspeichern die Arbeitsumgebung aus, die zwischengespeichert werden soll, und wählen Sie *Cache-Assistenten starten* aus.
+image:cache-data.png["Popup-Fenster „Cache-Daten“"]
+. Wählen Sie auf der Seite „Configure Your Caches“ das Volume oder die Volumes aus, die Sie zwischenspeichern möchten.
++
+
+NOTE: Sie können bis zu 50 Volumes auswählen.
+
+. Scrollen Sie auf der Seite nach unten, um weitere Änderungen an den Details der VM oder der Volume-Größe vorzunehmen.
+. Geben Sie die Größe für Cache-Volumes als Prozentsatz der Größe des Quell-Volumes ein.
++
+
+TIP: Eine gute Faustregel lautet, dass die Cache-Volumen-Größe etwa 15% der Quell-Volume-Größe betragen sollte.
+
++
+image:create-cache.png["Fenster zum Hinzufügen von Cache"]
+
+. Aktivieren Sie das Kontrollkästchen *Cachezugriff*, um die Regeln für die NFS-Exportrichtlinie und die SMB/CIFS-Share-Konfiguration vom Quell-Volume auf das Ziel-Cache-Volume zu replizieren.
++
+Anschließend werden die Regeln für die NFS-Exportrichtlinie und die SMB/CIFS-Freigabe im Quell-Volume auf das Cache-Volume repliziert. Wenn das SMB/CIFS-Protokoll auf der Cache-Speicher-VM nicht aktiviert ist, wird die SMB/CIFS-Freigabe nicht repliziert.
+
+. Geben Sie optional das Präfix für den Cache-Namen ein.
++
+Das Suffix von `pass:macros[_cache]` Wird an den Namen in folgendem Format angehängt: `<user-specified prefix>_<source volume name>_cache`
+
+. Wählen Sie *Caches erstellen*.
++
+Der neue Cache wird in der Liste Caching angezeigt. Der Name des Cache-Volumes wird angezeigt `pass:macros[_cache]` Als Suffix auf den Namen des Quell-Volumes.
+
+. Um den Fortschritt des Vorgangs anzuzeigen, wählen Sie im oberen Menü die Option image:settings-icon.png["Einstellungssymbol"] > *Zeitleiste*.
+
