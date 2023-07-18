@@ -16,8 +16,7 @@ Sie können alle Volume-Caching-Jobs überwachen und deren Fortschritt bestimmen
 
 .Schritte
 . Wählen Sie im Hauptmenü die Option image:settings-icon.png["Einstellungssymbol auf der Benutzeroberfläche"] > *Zeitleiste*.
-
-
++
 image:timeline.png["Bildschirm „Zeitleiste“"]
 
 . Optional nach Zeit, Dienst, Aktion, Agent, Ressource, Benutzer oder Status.

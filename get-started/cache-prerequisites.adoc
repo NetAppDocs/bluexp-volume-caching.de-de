@@ -27,7 +27,7 @@ Um BlueXP Volume Caching zu verwenden, sollten Sie sicherstellen, dass Ihre Umge
 ** Der BlueXP Connector muss in NetApp BlueXP eingerichtet werden. Alle Quell- und Ziel-Cluster müssen sich auf demselben BlueXP Connector befinden. Siehe https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXP Quick Start Guide"^] Und https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Erfahren Sie mehr über Steckverbinder"^].
 ** Die Arbeitsumgebung sollte eingerichtet werden.
 ** Die Cluster sollten in der Zielarbeitsumgebung hinzugefügt werden und sich im STATUS EIN oder herabgesetzt befinden.
-** Standard-BlueXP Anforderungen erfüllt. Siehe https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXP Anforderungen erfüllt"].
+** Standard-BlueXP Anforderungen erfüllt. Siehe https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXP Anforderungen erfüllt"^].
 
 
 

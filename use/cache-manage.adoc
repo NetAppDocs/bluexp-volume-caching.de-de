@@ -27,7 +27,7 @@ Mit BlueXP Volume Caching erreichen Sie diese Ziele:
 
 == Cache-Details anzeigen
 
-Bei jedem Caching von Volumes können Sie das ursprüngliche Volume, die Arbeitsumgebung, das Cache Volume und vieles mehr anzeigen.
+Für jedes Caching können Sie das ursprüngliche Volume, die Arbeitsumgebung, das Cache-Volume und vieles mehr anzeigen.
 
 .Schritte
 . Wählen Sie in der linken Navigationsleiste von BlueXP *Mobility* > *Volume Caching* aus.
@@ -42,7 +42,7 @@ Sie können die Liste der Cache-Volumes anzeigen, die in der Zielumgebung erstel
 
 
 
-== Bearbeiten Sie einen Volume-Cache
+== Bearbeiten eines Caches
 
 Sie können den Namen, die Volume-Größe und die Exportrichtlinie für einen Cache ändern.
 
@@ -82,7 +82,7 @@ TIP: Sie können eine vorhandene Exportrichtlinie einem Cache zuweisen. Sie kön
 
 
 
-== Die Größe eines Caching von Volumes ändern
+== Größe eines Caches ändern
 
 Sie können die Größe des Cache-Volumes basierend auf einem Prozentsatz des Quell-Volumes ändern.
 
@@ -99,7 +99,7 @@ Die Größe des Cache-Volumes wird auf den neuen Prozentsatz angepasst.
 
 
 
-== Löschen Sie einen Volume-Cache
+== Cache löschen
 
 Wenn Sie den Cache nicht mehr benötigen, können Sie ihn löschen. Dadurch wird die Cache-Beziehung des Volumes gelöscht und der Cache des Zielvolumes wird gelöscht.
 

@@ -16,18 +16,18 @@ Hier erhalten Sie einen Überblick über die Schritte, die Sie für den Einstieg
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Eins"] Voraussetzungen prüfen
 [role="quick-margin-para"]
-link:../get-started/cache-prerequisites.html["Stellen Sie sicher, dass Ihre Umgebung diese Anforderungen erfüllt"^].
+link:../get-started/cache-prerequisites.html["Stellen Sie sicher, dass Ihre Umgebung diese Anforderungen erfüllt"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Zwei"] Richten Sie den Volume Caching-Service ein
 [role="quick-margin-para"]
-link:../get-started/cache-setup.html["BlueXP Volume-Caching einrichten"^].
+link:../get-started/cache-setup.html["BlueXP Volume-Caching einrichten"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Drittens"] Was kommt als Nächstes?
 [role="quick-margin-para"]
 Nachdem Sie den Service eingerichtet haben, gehen Sie wie folgt vor.
 
 [role="quick-margin-list"]
-* link:../use/cache-create.html["Erstellen Sie einen Cache"^].
-* link:../use/cache-use-overview.html["Verwalten Sie einen Cache, einschließlich der Größe eines Cache-Volumes"^].
-* link:../use/monitor-jobs.html["Überwachen Sie die Caching-Vorgänge von Volumes"^].
+* link:../use/cache-create.html["Erstellen Sie einen Cache"].
+* link:../use/cache-use-overview.html["Verwalten eines Caches, Bearbeiten eines Caches, Ändern der Größe eines Caches oder Löschen eines Caches"].
+* link:../use/monitor-jobs.html["Überwachen Sie die Caching-Vorgänge von Volumes"].
 

@@ -59,8 +59,7 @@ TIP: Eine gute Faustregel lautet, dass die Cache-Volumen-Größe etwa 15% der Qu
 Anschließend werden die Regeln für die NFS-Exportrichtlinie und die SMB/CIFS-Freigabe im Quell-Volume auf das Cache-Volume repliziert. Wenn das SMB/CIFS-Protokoll auf der Cache-Speicher-VM nicht aktiviert ist, wird die SMB/CIFS-Freigabe nicht repliziert.
 
 . Geben Sie optional das Präfix für den Cache-Namen ein.
-
-
++
 Das Suffix von `pass:macros[_cache]` Wird an den Namen in folgendem Format angehängt: `<user-specified prefix>_<source volume name>_cache`
 
 . Wählen Sie *Caches erstellen*.
