@@ -18,8 +18,6 @@ Mit BlueXP Volume-Caching verfügen Sie über Caching-Funktionen für die Cloud,
 
 Der Service bietet darüber hinaus Zugriff von Remote-Standorten auf unternehmenseigene Datensätze. Wenn Sie „heiße“ Daten bereitstellen, auf die häufig von mehreren Controllern in einem Cluster zugegriffen werden muss, können Sie die Performance wichtiger Applikationen steigern. Und wenn Sie heiße Daten für Benutzer an diversen Standorten weltweit in ihrem lokalen Cache zwischenspeichern, erleichtern Sie ihnen die engere Zusammenarbeit. Denn sie haben nicht nur gleichzeitigen Zugriff auf zentrale Datensätze, sondern auch verkürzte Reaktionszeiten beim Zugriff auf die „heißen“ Daten.
 
-Das BlueXP Volume-Caching wird in einem Amazon S3-Bucket implementiert, der von AWS CloudFront bedient wird.
-
 
 
 == Was ist ein Cache?
