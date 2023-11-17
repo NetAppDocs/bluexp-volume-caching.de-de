@@ -67,7 +67,7 @@ Zusätzlich zu den oben genannten Self-Support-Optionen können Sie gemeinsam mi
 *** *Service*: Wählen Sie den Dienst aus, mit dem das Problem verknüpft ist. Beispiel: BlueXP, wenn es sich um ein Problem des technischen Supports mit Workflows oder Funktionen im Service handelt.
 *** *Arbeitsumgebung*: Wählen Sie *Cloud Volumes ONTAP* oder *On-Prem* und anschließend die zugehörige Arbeitsumgebung aus.
 +
-Die Liste der Arbeitsumgebungen liegt im Bereich des BlueXP-Kontos, des Arbeitsbereichs und des Connectors, den Sie im oberen Banner des Dienstes ausgewählt haben.
+Die Liste der Arbeitsumgebungen liegt im Bereich der BlueXP -Organisation (oder des Accounts), des Projekts (oder des Arbeitsbereichs) und des Connectors, den Sie im oberen Banner des Service ausgewählt haben.
 
 *** *Case Priority*: Wählen Sie die Priorität für den Fall, der niedrig, Mittel, hoch oder kritisch sein kann.
 +
